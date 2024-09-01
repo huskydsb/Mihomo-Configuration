@@ -1,0 +1,681 @@
+proxy-groups:
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/shadowrocket.png
+    name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Auto.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: ♻️ 自动选择
+    type: url-test
+    url: "https://www.gstatic.com/generate_204"
+    tolerance: 10
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)美国|USA|🇺🇸|United States|US|US(?:A)?|America|US-?A|U\.?S\.?|U\.?S\.?A\.?|United State|New York|NYC|纽约|Los Angeles|LA|洛杉矶|Chicago|芝加哥|Houston|休斯顿|Philadelphia|费城|San Francisco|旧金山|Dallas|达拉斯|San Jose|圣荷西
+    name: 🇺🇸 美国节点
+    type: select
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)美国|USA|🇺🇸|United States|US|US(?:A)?|America|US-?A|U\.?S\.?|U\.?S\.?A\.?|United State|New York|NYC|纽约|Los Angeles|LA|洛杉矶|Chicago|芝加哥|Houston|休斯顿|Philadelphia|费城|San Francisco|旧金山|Dallas|达拉斯|San Jose|圣荷西
+    name: 🇺🇸 美国自动
+    type: fallback
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)日本|Japan|🇯🇵|Nihon|Nippon|JP|JPN|J-P|日本国|日|Tokyo|东京|Osaka|大阪|Kyoto|京都|Yokohama|横滨|Nagoya|名古屋|Hiroshima|广岛|Fukuoka|福冈
+    name: 🇯🇵 日本节点
+    type: select
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)日本|Japan|🇯🇵|Nihon|Nippon|JP|JPN|J-P|日本国|日|Tokyo|东京|Osaka|大阪|Kyoto|京都|Yokohama|横滨|Nagoya|名古屋|Hiroshima|广岛|Fukuoka|福冈
+    name: 🇯🇵 日本自动
+    type: fallback
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)韩国|Korea|🇰🇷|South Korea|KR|ROK|KOR|K-?R|南北|Seoul|首尔|Busan|釜山|Incheon|仁川|Daegu|大邱|Daejeon|大田|Gwangju|光州
+    name: 🇰🇷 韩国节点
+    type: select
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)韩国|Korea|🇰🇷|South Korea|KR|ROK|KOR|K-?R|南北|Seoul|首尔|Busan|釜山|Incheon|仁川|Daegu|大邱|Daejeon|大田|Gwangju|光州
+    name: 🇰🇷 韩国自动
+    type: fallback
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)狮城|Singapore|🇸🇬|SG|SGP|新|狮城共和国|Singapura|Singapore City|狮城市
+    name: 🇸🇬 狮城节点
+    type: select
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)狮城|Singapore|🇸🇬|SG|SGP|新|狮城共和国|Singapura|Singapore City|狮城市
+    name: 🇸🇬 狮城自动
+    type: fallback
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)香港|Hong Kong|🇭🇰|HK|H-K|HongKong|Xianggang|香港特别行政区|HK SAR|Central|中环|Kowloon|九龙|Mong Kok|旺角|Causeway Bay|铜锣湾
+    name: 🇭🇰 香港节点
+    type: select
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)香港|Hong Kong|🇭🇰|HK|H-K|HongKong|Xianggang|香港特别行政区|HK SAR|Central|中环|Kowloon|九龙|Mong Kok|旺角|Causeway Bay|铜锣湾
+    name: 🇭🇰 香港自动
+    type: fallback
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)台湾|Taiwan|🇹🇼|TW|TWN|Formosa|台灣|台|Taipei|台北|Kaohsiung|高雄|Taichung|台中|Tainan|台南|Hsinchu|新竹|Chiayi|嘉义
+    name: 🇹🇼 台湾节点
+    type: select
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)台湾|Taiwan|🇹🇼|TW|TWN|Formosa|台灣|台|Taipei|台北|Kaohsiung|高雄|Taichung|台中|Tainan|台南|Hsinchu|新竹|Chiayi|嘉义
+    name: 🇹🇼 台湾自动
+    type: fallback
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+    name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
+    name: 🤖 人工智能
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
+    name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
+    name: 📽️ 迪士尼+
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/HBO.png
+    name: 🎞️ Max
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/PrimeVideo.png
+    name: 🎬 Prime Video
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/AppleTV.png
+    name: 🍎 Apple TV+
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
+    name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
+    name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png
+    name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
+    name: 🎮 游戏服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
+    name: 🪟 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
+    name: 🇬 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
+    name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
+    name: 🇨🇳 直连域名
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
+    name: 🇨🇳 直连 IP
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+    name: 🪜 代理域名
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+    name: 📈 网络测试
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
+    name: 🖥️ 直连软件
+    type: select
+    proxies:
+      - 🎯 全球直连
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+    name: 🔒 私有网络
+    type: select
+    proxies:
+      - 🎯 全球直连
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+    name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+    name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+
+  - icon: https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Fish-512.png
+    name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+      - 🎯 全球直连
+
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+    name: GLOBAL
+    type: select
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
+
+rule-providers:
+  fakeip-filter:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/fakeip-filter.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/fakeip-filter.mrs"
+    interval: 86400
+
+  ads:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/ads.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ads.mrs"
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rules/applications.list
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/applications.list"
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/private.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/private.mrs"
+    interval: 86400
+
+  microsoft-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/microsoft-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/microsoft-cn.mrs"
+    interval: 86400
+
+  apple-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/apple-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/apple-cn.mrs"
+    interval: 86400
+
+  google-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/google-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/google-cn.mrs"
+    interval: 86400
+
+  games-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/games-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/games-cn.mrs"
+    interval: 86400
+
+  netflix:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/netflix.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/netflix.mrs"
+    interval: 86400
+
+  disney:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/disney.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/disney.mrs"
+    interval: 86400
+
+  max:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/max.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/max.mrs"
+    interval: 86400
+
+  primevideo:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/primevideo.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/primevideo.mrs"
+    interval: 86400
+
+  appletv:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/appletv.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/appletv.mrs"
+    interval: 86400
+
+  youtube:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/youtube.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/youtube.mrs"
+    interval: 86400
+
+  tiktok:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/tiktok.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/tiktok.mrs"
+    interval: 86400
+
+  bilibili:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/bilibili.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/bilibili.mrs"
+    interval: 86400
+
+  ai:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/ai.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ai.mrs"
+    interval: 86400
+
+  networktest:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rules/networktest.list
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/networktest.list"
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/proxy.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/proxy.mrs"
+    interval: 86400
+
+  cn:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cn.mrs"
+    interval: 86400
+
+  netflixip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/netflixip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/netflixip.mrs"
+    interval: 86400
+
+  telegramip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/telegramip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/telegramip.mrs"
+    interval: 86400
+
+  privateip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/privateip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/privateip.mrs"
+    interval: 86400
+
+  cnip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    path: ./rules/cnip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cnip.mrs"
+    interval: 86400
+
+rules:
+  - RULE-SET,ads,🛑 广告拦截
+  - RULE-SET,applications,🖥️ 直连软件
+  - RULE-SET,private,🔒 私有网络
+  - RULE-SET,microsoft-cn,🪟 微软服务
+  - RULE-SET,apple-cn,🍎 苹果服务
+  - RULE-SET,google-cn,🇬 谷歌服务
+  - RULE-SET,games-cn,🎮 游戏服务
+  - RULE-SET,netflix,🎥 奈飞视频
+  - RULE-SET,disney,📽️ 迪士尼+
+  - RULE-SET,max,🎞️ Max
+  - RULE-SET,primevideo,🎬 Prime Video
+  - RULE-SET,appletv,🍎 Apple TV+
+  - RULE-SET,youtube,📹 油管视频
+  - RULE-SET,tiktok,🎵 TikTok
+  - RULE-SET,bilibili,📺 哔哩哔哩
+  - RULE-SET,ai,🤖 人工智能
+  - RULE-SET,networktest,📈 网络测试
+  - RULE-SET,proxy,🪜 代理域名
+  - RULE-SET,cn,🇨🇳 直连域名
+  - RULE-SET,netflixip,🎥 奈飞视频,no-resolve
+  - RULE-SET,telegramip,📲 电报消息,no-resolve
+  - RULE-SET,privateip,🔒 私有网络,no-resolve
+  - RULE-SET,cnip,🇨🇳 直连 IP
+
+  - GEOIP,CN,🎯 全球直连,no-resolve
+  - GEOSITE,CN,🎯 全球直连
+  
+  - MATCH,🐟 漏网之鱼
