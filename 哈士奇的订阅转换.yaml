@@ -14,8 +14,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Auto.png
     include-all: true
@@ -106,18 +106,18 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 
-  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)台湾|Taiwan|🇹🇼|TW|TWN|Formosa|台灣|台|Taipei|台北|Kaohsiung|高雄|Taichung|台中|Tainan|台南|Hsinchu|新竹|Chiayi|嘉义
-    name: 🇹🇼 台湾节点
+    name: 🇨🇳 台湾节点
     type: select
 
-  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)台湾|Taiwan|🇹🇼|TW|TWN|Formosa|台灣|台|Taipei|台北|Kaohsiung|高雄|Taichung|台中|Tainan|台南|Hsinchu|新竹|Chiayi|嘉义
-    name: 🇹🇼 台湾自动
+    name: 🇨🇳 台湾自动
     type: fallback
     url: "https://www.gstatic.com/generate_204"
     interval: 300
@@ -138,8 +138,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
     name: 🤖 Ai
@@ -157,8 +157,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
     name: 🎥 Netflix
@@ -176,8 +176,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
     name: 📽️ Disney+
@@ -195,8 +195,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/HBO.png
     name: 🎞️ Max
@@ -214,8 +214,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/PrimeVideo.png
     name: 🎬 Prime Video
@@ -233,8 +233,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/AppleTV.png
     name: 🍎 Apple TV+
@@ -252,8 +252,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
     name: 📹 YouTube
@@ -271,8 +271,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
     name: 🎵 TikTok
@@ -290,8 +290,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png
     name: 📺 Bilibili
@@ -310,8 +310,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
     name: 🎮 游戏服务
@@ -337,8 +337,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
     name: 🇬 谷歌服务
@@ -356,8 +356,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
     name: 🍎 苹果服务
@@ -376,8 +376,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     name: 🇨🇳 直连域名
@@ -409,8 +409,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
     name: 📈 网络测试
@@ -428,8 +428,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     name: 🖥️ 直连软件
@@ -471,8 +471,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
       - 🎯 全球直连
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
@@ -492,8 +492,8 @@ proxy-groups:
       - 🇸🇬 狮城自动
       - 🇭🇰 香港节点
       - 🇭🇰 香港自动
-      - 🇹🇼 台湾节点
-      - 🇹🇼 台湾自动
+      - 🇨🇳 台湾节点
+      - 🇨🇳 台湾自动
 
 rule-providers:
   fakeip-filter:
