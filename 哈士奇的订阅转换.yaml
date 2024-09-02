@@ -123,7 +123,7 @@ proxy-groups:
     interval: 300
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-    name: 📲 电报消息
+    name: 📲 Telegram
     type: select
     proxies:
       - 🚀 节点选择
@@ -142,7 +142,7 @@ proxy-groups:
       - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
-    name: 🤖 人工智能
+    name: 🤖 Ai
     type: select
     proxies:
       - 🚀 节点选择
@@ -161,7 +161,7 @@ proxy-groups:
       - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
-    name: 🎥 奈飞视频
+    name: 🎥 Netflix
     type: select
     proxies:
       - 🚀 节点选择
@@ -180,7 +180,7 @@ proxy-groups:
       - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
-    name: 📽️ 迪士尼+
+    name: 📽️ Disney+
     type: select
     proxies:
       - 🚀 节点选择
@@ -256,7 +256,7 @@ proxy-groups:
       - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
-    name: 📹 油管视频
+    name: 📹 YouTube
     type: select
     proxies:
       - 🚀 节点选择
@@ -294,7 +294,7 @@ proxy-groups:
       - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png
-    name: 📺 哔哩哔哩
+    name: 📺 Bilibili
     type: select
     proxies:
       - 🎯 全球直连
@@ -658,20 +658,20 @@ rules:
   - RULE-SET,apple-cn,🍎 苹果服务
   - RULE-SET,google-cn,🇬 谷歌服务
   - RULE-SET,games-cn,🎮 游戏服务
-  - RULE-SET,netflix,🎥 奈飞视频
-  - RULE-SET,disney,📽️ 迪士尼+
+  - RULE-SET,netflix,🎥 Netflix
+  - RULE-SET,disney,📽️ Disney+
   - RULE-SET,max,🎞️ Max
   - RULE-SET,primevideo,🎬 Prime Video
   - RULE-SET,appletv,🍎 Apple TV+
-  - RULE-SET,youtube,📹 油管视频
+  - RULE-SET,youtube,📹 YouTube
   - RULE-SET,tiktok,🎵 TikTok
-  - RULE-SET,bilibili,📺 哔哩哔哩
-  - RULE-SET,ai,🤖 人工智能
+  - RULE-SET,bilibili,📺 Bilibili
+  - RULE-SET,ai,🤖 Ai
   - RULE-SET,networktest,📈 网络测试
   - RULE-SET,proxy,🪜 代理域名
   - RULE-SET,cn,🇨🇳 直连域名
-  - RULE-SET,netflixip,🎥 奈飞视频,no-resolve
-  - RULE-SET,telegramip,📲 电报消息,no-resolve
+  - RULE-SET,netflixip,🎥 Netflix,no-resolve
+  - RULE-SET,telegramip,📲 Telegram,no-resolve
   - RULE-SET,privateip,🔒 私有网络,no-resolve
   - RULE-SET,cnip,🇨🇳 直连 IP
 
