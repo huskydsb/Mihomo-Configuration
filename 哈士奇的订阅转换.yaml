@@ -326,6 +326,19 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
     name: 🇬 谷歌服务
@@ -350,8 +363,21 @@ proxy-groups:
     name: 🍎 苹果服务
     type: select
     proxies:
-      - 🎯 全球直连
+      - 🎯 全球直连     
       - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     name: 🇨🇳 直连域名
@@ -372,7 +398,19 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇸 美国节点
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本节点
+      - 🇯🇵 日本自动
+      - 🇰🇷 韩国节点
+      - 🇰🇷 韩国自动
+      - 🇸🇬 狮城节点
+      - 🇸🇬 狮城自动
+      - 🇭🇰 香港节点
+      - 🇭🇰 香港自动
+      - 🇹🇼 台湾节点
+      - 🇹🇼 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
     name: 📈 网络测试
