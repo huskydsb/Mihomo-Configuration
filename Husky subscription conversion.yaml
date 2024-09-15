@@ -341,7 +341,7 @@ proxy-groups:
       - 台湾自动
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
-    name: 🇬 谷歌服务
+    name: 谷歌服务
     type: select
     proxies:
       - 节点选择
@@ -694,7 +694,7 @@ rules:
   - RULE-SET,private,私有网络
   - RULE-SET,microsoft-cn,微软服务
   - RULE-SET,apple-cn,苹果服务
-  - RULE-SET,google-cn,🇬 谷歌服务
+  - RULE-SET,google-cn,谷歌服务
   - RULE-SET,games-cn,游戏服务
   - RULE-SET,netflix,Netflix
   - RULE-SET,disney,Disney+
