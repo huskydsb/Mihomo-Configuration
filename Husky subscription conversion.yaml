@@ -896,6 +896,13 @@ rules:
   - GEOSITE,CN,全球直连
 
   - MATCH,漏网之鱼
+ntp:
+  enable: true
+  write-to-system: true
+  server: time.apple.com
+  port: 123
+  interval: 30
+  
 dns:
   fake-ip-filter:
     - RULE-SET,fakeip-filter
