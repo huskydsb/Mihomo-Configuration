@@ -4,22 +4,22 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -36,7 +36,7 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)美国|USA|🇺🇸|United States|US|US(?:A)?|America|US-?A|U\.?S\.?|U\.?S\.?A\.?|United State|New York|NYC|纽约|Los Angeles|LA|洛杉矶|Chicago|芝加哥|Houston|休斯顿|Philadelphia|费城|San Francisco|旧金山|Dallas|达拉斯|San Jose|圣荷西
-    name: 美国节点
+    name: 美国手动
     type: select
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
@@ -64,7 +64,7 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)日本|Japan|🇯🇵|Nihon|Nippon|JP|JPN|J-P|日本国|日|Tokyo|东京|Osaka|大阪|Kyoto|京都|Yokohama|横滨|Nagoya|名古屋|Hiroshima|广岛|Fukuoka|福冈
-    name: 日本节点
+    name: 日本手动
     type: select
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -92,7 +92,7 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)韩国|Korea|🇰🇷|South Korea|KR|ROK|KOR|K-?R|南北|Seoul|首尔|Busan|釜山|Incheon|仁川|Daegu|大邱|Daejeon|大田|Gwangju|光州
-    name: 韩国节点
+    name: 韩国手动
     type: select
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
@@ -120,7 +120,7 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)狮城|Singapore|🇸🇬|SG|SGP|新|狮城共和国|Singapura|Singapore City|狮城市
-    name: 狮城节点
+    name: 狮城手动
     type: select
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
@@ -148,7 +148,7 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)香港|Hong Kong|🇭🇰|HK|H-K|HongKong|Xianggang|香港特别行政区|HK SAR|Central|中环|Kowloon|九龙|Mong Kok|旺角|Causeway Bay|铜锣湾
-    name: 香港节点
+    name: 香港手动
     type: select
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
@@ -176,7 +176,7 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)台湾|Taiwan|🇹🇼|TW|TWN|Formosa|台灣|台|Taipei|台北|Kaohsiung|高雄|Taichung|台中|Tainan|台南|Hsinchu|新竹|Chiayi|嘉义
-    name: 台湾节点
+    name: 台湾手动
     type: select
 
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
@@ -206,22 +206,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -231,22 +231,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -256,22 +256,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -281,22 +281,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -306,22 +306,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -331,22 +331,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -356,22 +356,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -381,22 +381,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -406,22 +406,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -432,22 +432,22 @@ proxy-groups:
       - 全球直连
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -465,22 +465,22 @@ proxy-groups:
       - 全球直连
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -490,22 +490,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -516,22 +516,22 @@ proxy-groups:
       - 全球直连
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -555,22 +555,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
@@ -579,22 +579,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
@@ -628,22 +628,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
       - 全球直连
@@ -655,22 +655,22 @@ proxy-groups:
     proxies:
       - 手动选择
       - 自动选择
-      - 美国节点
+      - 美国手动
       - 美国自动
       - 美国负载
-      - 日本节点
+      - 日本手动
       - 日本自动
       - 日本负载
-      - 韩国节点
+      - 韩国手动
       - 韩国自动
       - 韩国负载
-      - 狮城节点
+      - 狮城手动
       - 狮城自动
       - 狮城负载
-      - 香港节点
+      - 香港手动
       - 香港自动
       - 香港负载
-      - 台湾节点
+      - 台湾手动
       - 台湾自动
       - 台湾负载
 
